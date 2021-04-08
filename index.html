@@ -1,0 +1,630 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Home</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery.corner.js"></script> 
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+		<div class="container">
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="logo">
+							<a href="#">文化旅游双线云体验平台</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#blog" class="scroll">体验专区</a></li>
+								<li><a href="#about" class="scroll">设备支持</a></li>
+								<li><a href="#process" class="scroll">文化产品</a></li>
+								<li class="page-scroll"><a href="#port" class="scroll">非遗平台</a></li>
+								<li class="active-join" class="page-scroll"><a href="#team" class="scroll">联系我们</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner-info ---->
+			<div class="banner-info">
+				<div class="container">
+					<h1 class="wow fadeIn" data-wow-delay="0.5s"><span>a marvelous</span><br /><label>Cultural exhibition</label></h1>
+				<div class="top-banner-grids wow bounceInUp" data-wow-delay="0.4s">
+					<div class="banner-grid text-center">
+						<span class="top-icon1"> </span>
+						<h3>analytics</h3>
+					</div>
+					<div class="banner-grid banner-grid-active text-center">
+						<span class="top-icon2"> </span>
+						<h3>strategy</h3>
+					</div>
+					<div class="banner-grid text-center">
+						<span class="top-icon3"> </span>
+						<h3>branding</h3>
+					</div>
+					<div class="banner-grid text-center">
+						<span class="top-icon4"> </span>
+						<h3>promotion</h3>
+					</div>
+					<div class="banner-grid text-center">
+						<span class="top-icon5"> </span>
+						<h3>sales</h3>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+			<!---- banner-info ---->
+			<!---- top-grids ---->
+			<div class="top-grids text-center">
+				<div class="container">
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon1"> </span>
+							<h3><a href="#">right strategy</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon2"> </span>
+							<h3><a href="#">adaptive style</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon3"> </span>
+							<h3><a href="#">money making</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon4"> </span>
+							<h3><a href="#">brand keaping</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---- top-grids ---->
+
+			<!--- blog ---->
+			<div id="blog" div class="blog">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>体验</span><label>专区 .</label></h3>
+					</div>
+				</div>
+				<!---- blog-grids ---->
+				<div class="blog-grids">
+					<div class="container"> 
+					<div class="blog-grids-left">
+							<div class="blog-grid-left wow bounceIn" data-wow-delay="0.4s">
+								<div class="blog-art-pic">
+									<img src="my_images/宏村3.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a href="#">宏村</a></h3>
+									<p>安徽·黄山，风景秀丽的皖南古村落，感受江南水乡温和之美。</p>
+									<p>春雨朦胧中，走近徽派建筑</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>21.3.2021</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+							<div class="blog-grid-left wow bounceIn" data-wow-delay="0.4s">
+								<div class="blog-art-pic">
+									<img src="my_images/兵马俑.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a href="#">兵马俑</a></h3>
+									<p>陕西·西安，秦始皇的亲卫队——你与兵马俑距离最近的一次</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>18.3.2021</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+						<div class="clearfix"> </div>
+						<!---- ---->
+						<div class="blog-grid-left-big wow bounceIn" data-wow-delay="0.4s">
+							<div class="blog-grid-left-big-info">
+								<div class="blog-art-info">
+									<h3><a href="#">Heading</a></h3>
+									<p>四川·成都 杜甫草堂</p>
+									<p>“八月秋高风怒嚎，卷我屋上三重茅。”</p>
+									<p>今朝来过，唐朝诗人杜甫的思绪你能了解几分？</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.3.2021</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+							<div class="blog-grid-left-big-pic">
+								<div class="blog-art-pic">
+									<img src="my_images/杜甫草堂.jfif" title="name" />
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-grids-right wow bounceIn" data-wow-delay="0.4s">
+						<div class="blog-grid-left blog-grid-right">
+								<div class="blog-art-pic">
+									<img src="images/b3.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a href="#">Find more!</a></h3>
+									<p>对推荐的产品不满意？点击查看更多文化体验活动！</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>20.3.2021</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!---- blog-grids ---->
+				</div>
+			</div>
+			<!--- blog ---->
+			<!---- about ---->
+			<div id="about" class="about">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Devices</span><label>Support .</label></h3>
+					</div>
+				</div>
+					<!--- about-grids ---->
+					<div class="about-grids">
+						<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="https://detail.tmall.com/item.htm?id=625481520694&ali_refid=a3_430583_1006:1336570156:N:3QyjTN2JBRiZfm2NzJjzHQ==:1b5442002d25f323822be226059f4d4f&ali_trackid=1_1b5442002d25f323822be226059f4d4f&spm=a230r.1.14.1" target="_blank">VR·虚拟现实</a></h4>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed </p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="my_images/VR设备.jfif" title="name" />
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+							<div class="about-grid-pic">
+							<img src="my_images/AR还原.jfif" title="name" />
+							</div>
+							<div class="about-grid-info">
+								<h4><a href="https://www.llvision.com/leion-pro.html?baidu-pc-2-2-21&sdclkid=A52_15-i152_AJDiAOf&renqun_youhua=2234924&bd_vid=9479393463050410769" target="_blank">AR·现实增强</a></h4>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed </p>
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid1 wow fadeInRight" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="http://vr.ucmeqemg.cn/product/data-gloves/" target="_blank">VR·智能手套</a></h4>
+								<p>既要看得见，也要摸得着。</p>
+								<p>真实还原人体触感，搭配高还原度的风景和文物。用手去触摸，去探索，去发现文化载体的每一面，让触碰带来更深的了解。</p>
+								<p>伸出手，开启一场只属于你的，探索之旅。</p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="my_images/VR手套.裁剪.jfif" title="name" />
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- /about-grids ---->
+				</div>
+			</div>
+			<!---- about ----> 
+			<!--- process --->
+			<div id="process" class="process">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>文化</span><label>产品 .</label></h3>
+					</div>
+				</div>
+				<div class="container">
+					<div class="process-grids text-center wow bounce" data-wow-delay="0.4s">
+						<div class="col-md-3 process-grid process-grid1 wow bounceInUp" data-wow-delay="0.4s">
+							<span class="p-icon1"> </span>
+							<h4><a href="#">文化解读</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid2 wow bounceInDown" data-wow-delay="0.4s">
+							<span class="p-icon2"> </span>
+							<h4><a href="#">纪念品</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid3 wow bounceInUp" data-wow-delay="0.4s">
+							<span class="p-icon3"> </span>
+							<h4><a href="#">虚拟摄影</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid4 wow bounceInDown" data-wow-delay="0.4s">
+							<span class="p-icon4"> </span>
+							<h4><a href="#">亲手制作</a></h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div><div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+			<!--- process --->
+			<!--- portfolio ---->
+			<div id="port" class="portfolio">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Intangible</span><label>cultural heritage .</label></h3>
+					</div>
+				</div>
+				<!--- Portfolio --->
+			<div id="port" class="portfolio-box">
+				
+					<!---- start-portfolio-script----->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<div class="container">
+						<!----//End-portfolio-script----->
+						<ul id="filters" class="clearfix">
+							<li class="filtter-color1"><span class="filter active" data-filter="umbrella textile mascot mask">All</span></li>
+							<li class="filtter-color2"><span class="filter" data-filter="umbrella">umbrella</span></li>
+							<li class="filtter-color3"><span class="filter" data-filter="textile">textile</span></li>
+							<li class="filtter-color4"><span class="filter" data-filter="mascot">mascot</span></li>
+							<li class="filtter-color5"><span class="filter" data-filter="mask">mask</span></li>
+						</ul>
+					</div>
+					<div id="portfoliolist">
+					<div class="portfolio logo1 mix_all port-big-grid wow bounceIn" data-wow-delay="0.5s" data-cat="umbrella" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="https://baike.baidu.com/item/%E6%B2%B9%E7%BA%B8%E4%BC%9E/2851340?fr=aladdin" target="_blank" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="my_images/非遗1-裁剪.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>一把伞的前世今生</h4>
+						     			<p>用宽窄长短近乎一致的竹片所制成的，让油纸伞的外形更加挺拔规整。当然，伞也因此更加牢固。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="umbrella" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="my_images/非遗2-裁剪.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>一把伞的前世今生</h4>
+						     			<p>伞面上精细勾画的图案，伞顶上系住朴素的装扮，把最华丽的和最平淡的美呈现在我们面前。你会发现，它们并非对立——相符它们刚好融洽。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>		
+					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="mask" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="my_images/非遗3.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>脸谱</h4>
+						     			<p>这里浓墨重彩的，精细勾画着的，是人们的另一张颜面：它隐藏了我们背后的喜怒哀乐，只留下喜庆与欢乐，呈现给观众。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="mascot" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="my_images/非遗4-裁剪.jfif" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>吉祥香包</h4>
+						     			<p>好运总是留给相信它的人，即便绣在布匹上，亦复如是。这些小巧的的祝福，即便不起眼，也没能影响其制作过程中的一丝针脚。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="textile" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="my_images/非遗-裁剪.jfif" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>声名远扬的东方织物</h4>
+						     			<p>丝绸在拥有细腻的手感的同时，具有一定的韧性。但提到它最令人欣赏的，还是纤细的丝线所组成的精致图案，当然，是手工制作。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="umbrella" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="my_images/扎染-裁剪.jfif" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>扎染</h4>
+						     			<p>如何用一根足够长的线在布上绘出各种花纹？为何毫无规律的三维物体能展开成一幅画？答案可能和维度空间并没有关系。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<!-- <div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic7.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic8.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic9.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	 -->
+					<div class="clearfix"> </div>	
+				</div>
+			</div>
+				</div>
+			</div>
+			<!---- work-with-us---->
+			<div class="work-with-us text-center">
+				<div class="container">
+					<h4>YOU ALSO WANT? WORK WITH US!</h4>
+					<p>Send the application form for a free call and our manager will contact with you</p>
+					<a class="catch-me wow shake" data-wow-delay="0.3s" href="#">contact us</a>
+				</div>
+			</div>
+			<!---- work-with-us---->
+			<!--- portfolio ---->
+			<!---- Team ----->
+			<div id="team" class="team">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>我们的</span><label>团队 .</label></h3>
+					</div>
+				</div>
+				<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 3,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : true,
+							        navigationText :  false,
+							        pagination : false,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel text-center">
+					                <div class="item wow zoomIn" data-wow-delay="0.3s">
+					                	<img class="lazyOwl" data-src="images/team-member1.png" alt="name">
+					                	<h5><span>Peter</span> Holmes</h5>
+					                	<label>Marketing</label>
+					                </div>
+					                <div class="item wow zoomIn" data-wow-delay="0.3s">
+					                	<img class="lazyOwl" data-src="images/team-member2.png" alt="name">
+					                	<h5><span>Kenny</span> Johns</h5>
+					                	<label>CEO</label>
+					                </div>
+					                <div class="item wow zoomIn" data-wow-delay="0.3s">
+					                	<img class="lazyOwl" data-src="images/team-member3.png" alt="name">
+					                	<h5><span>Trisha </span> Steplton</h5>
+					                	<label>Designer</label>
+					                </div>
+					                <div class="item wow zoomIn" data-wow-delay="0.3s">
+					                	<img class="lazyOwl" data-src="images/team-member1.png" alt="name">
+					                	<h5><span>Peter</span> Holmes</h5>
+					                	<label>Marketing</label>
+					                </div>
+					                <div class="item wow zoomIn" data-wow-delay="0.3s">
+					                	<img class="lazyOwl" data-src="images/team-member2.png" alt="name">
+					                	<h5><span>Kenny</span> Johns</h5>
+					                	<label>CEO</label>
+					                </div>
+					                <div class="item wow zoomIn" data-wow-delay="0.3s">
+					                	<img class="lazyOwl" data-src="images/team-member3.png" alt="name">
+					                	<h5><span>Trisha </span> Steplton</h5>
+					                	<label>Designer</label>
+					                </div>
+				              </div>
+						<!--//sreen-gallery-cursual---->
+			</div>
+			</div>
+			<!---- Team ----->
+			<!---- map ---->
+			<div id="contact" class="map">
+				<div class="map-location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667809.5405374563!2d-98.19684021195167!3d35.27017247326614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ac3911b1ac4f9d%3A0x5d1ccf33400aea48!2sOklahoma%2C+USA!5e0!3m2!1sen!2sin!4v1405178655430"> </iframe>
+				</div>
+				<div class="contact-info text-center wow fadeInLeft" data-wow-delay="0.3s">
+					<h4><span>Ruddy</span>Marketing Agency</h4>
+					<p><span class="map-icon1"> </span>119 N Salisbury NC 2760</p>
+					<p><span class="map-icon2"> </span>info@ruddy.com</p>
+					<p><span class="map-icon3"> </span>223-323-232-3232</p>
+				</div>
+			</div>
+			<!---- map ---->
+			<div class="clearfix"> </div>
+			<!---- footer --->
+			<div class="footer text-center">
+				<div class="container">
+					<div class="footer-inner wow zoomIn" data-wow-delay="0.3s">
+						<ul>
+							<li><a href="#"><img src="images/footer-logo.png" title="ruddy" /></a></li>
+							<li><a class="contact-me" href="#">contact us</a></li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---- footer --->
+		</div>
+
+</body>
+</html>
